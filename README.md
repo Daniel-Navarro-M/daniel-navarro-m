@@ -1,6 +1,6 @@
 # Daniel Navarro Madrinan
 
-### Data Scientist · Data Engineer · MA in Public Policy (Quantitative Analysis)
+### Data Scientist · Data Engineer · MA in Public Policy (Quantitative Policy Analysis)
 
 Geneva, Switzerland
 
@@ -12,7 +12,7 @@ Geneva, Switzerland
 
 Data professional working end-to-end across the data lifecycle — from collection and infrastructure to analysis and decision-making. I design and maintain data pipelines, web-scraping systems, and analytics workflows that turn large-scale data into actionable insights, combining applied machine learning, statistics, and data engineering to support business and policy decisions.
 
-Background in Public Policy (Quantitative Analysis) at the Central European University (CEU) and Anthropology, allowing me to bridge technical work with real-world impact and communicate results to technical and non-technical stakeholders.
+Background in Public Policy (Quantitative Policy Analysis) at the Central European University (CEU) and Anthropology, allowing me to bridge technical work with real-world impact and communicate results to technical and non-technical stakeholders.
 
 **Collaborators:** World Bank · UN OCHA · Organization of American States (OAS) · European Union · private-sector consulting
 

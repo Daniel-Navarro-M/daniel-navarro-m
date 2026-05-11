@@ -66,8 +66,8 @@ Background in Public Policy (Quantitative Policy Analysis) at the Central Europe
 
 ## Projects
 
-- **U.S. federal procurement intelligence pipeline.** Python · SQLite · AWS EC2 · Preset. 180k+ bid observations; incremental, idempotent ETL with checkpointing and retry logic; enrichment via SAM API and HigherGov.
-- **Tender price prediction.** Regression and tree-based models on scraped procurement data; ~5% accuracy improvement over baseline.
+- **U.S. federal procurement intelligence pipeline.** Python · SQLite · AWS EC2 · Preset. Historic bid observations; incremental, idempotent ETL with checkpointing and retry logic; enrichment via SAM API and DIBBS.
+- **Tender price prediction.** Regression and tree-based models on scraped procurement data.
 - **Time-series satellite analysis for pollution forecasting.** Geospatial feature engineering and predictive modeling.
 - **Geospatial ML on Parkinson's disease.** Linked pesticide exposure to earlier disease onset using ML and deep learning on patient and geographic data.
 - **Electoral behavior clustering.** Unsupervised ML (k-means) on metropolitan voting patterns in Cali, Colombia.

@@ -23,7 +23,6 @@ Background in Public Policy (Quantitative Policy Analysis) at the Central Europe
 ## Currently
 
 - **UN OCHA — Strategic Prioritization Practices Branch (Humanitarian Programme Cycle Section):** implementation of local LLMs for humanitarian response.
-- **World Bank × CEU:** quantitative analysis of TIMSS data on educational inequality across the Balkans and Europe.
 - **Instrumental Partners:** ETL pipelines, web scraping, BI, and ML for U.S. federal procurement and manufacturing clients.
 
 ---

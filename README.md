@@ -1,6 +1,6 @@
 # Daniel Navarro Madrinan
 
-### Data Scientist · Data Engineer · MA in Public Policy (Quantitative Policy Analysis)
+### Data Scientist · BI Architect · MA in Public Policy (Quantitative Policy Analysis)
 
 Geneva, Switzerland
 

@@ -13,8 +13,7 @@ I build **AI agents that automate operations**, lower costs and deliver reliable
 ## Now
 
 - **Agentic AI.** Designing and deploying multi-agent workflows for business operations.
-- **UN OCHA, Geneva.** AI situation analysis and grounded report generation for humanitarian crises, used in the 2026 earthquake responses in the Philippines, Venezuela and Colombia.
-- **Instrumental Partners.** Knowledge graphs, document AI, pricing models and BI for US manufacturing and defense-supply clients.
+- **Instrumental Partners.** RAG pipelines, agentic workflows, AI contract review and BI for US manufacturing and defense-supply clients.
 
 ## Agentic workflows for business
 
@@ -34,6 +33,21 @@ I build **AI agents that automate operations**, lower costs and deliver reliable
 - **Integration.** Agents connect to existing tools, data and documents.
 
 **Applications:** reporting and BI, procurement, finance and back office, document-heavy processes and research.
+
+## Experience
+
+| Role | Where | When |
+|---|---|---|
+| **Data Engineer & BI Consultant**: market-intelligence RAG, AI contract review, procurement data pipelines and dashboards | Instrumental Partners | 2025 to now |
+| **Information Management Intern**: built and deployed OCHA's AI situation-analysis web tool and supported three earthquake responses | UN OCHA, Geneva | Jun to Oct 2026 |
+| **Researcher**: led the CEU workstream on educational inequality (TIMSS) | World Bank and CEU Policy Lab | 2025 to 2026 |
+| **Independent Consultant**: forecasting, dashboards and GIS datasets | Data Science & GIS, Bogotá | 2024 to 2025 |
+| **Information Manager (Archive)**: reorganised 20 years of cooperation archives | EU Delegation in Colombia | 2024 |
+| **Research Assistant / Data Analyst**: Parkinson's georeferencing system | I2T Lab, Universidad Icesi | 2023 to 2024 |
+| **Electoral Observer and Intern**: election monitoring and migration NLP study | Organization of American States | 2023 to 2024 |
+| **Research Assistant**: security and peacebuilding research, maps and policy papers | SegLab, Universidad Icesi | 2021 to 2023 |
+
+Full CV: [danielnavarro.work/cv](https://danielnavarro.work/cv/)
 
 ## Case studies
 
@@ -73,7 +87,7 @@ I build **AI agents that automate operations**, lower costs and deliver reliable
 
 I work across the whole data lifecycle: scraping and APIs, ETL, databases, models, dashboards, and the report someone reads at the end. Most of my projects sit where data engineering meets AI, with an evidence trail behind every answer.
 
-I hold an MA in Public Policy (quantitative policy analysis) from Central European University and a BA in Anthropology from Universidad Icesi. That mix is why I care about who uses a system and whether its numbers can be trusted.
+I hold an MA in Public Policy (quantitative policy analysis, with Merit) from Central European University and a BA in Anthropology, Magna Cum Laude, from Universidad Icesi. That mix is why I care about who uses a system and whether its numbers can be trusted.
 
 I've worked with the World Bank, UN OCHA, the Organization of American States, the European Union and private-sector clients, in humanitarian response, public procurement, manufacturing, education and security.
 

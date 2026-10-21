@@ -12,61 +12,23 @@ I build **agentic systems that can show their work**: multi-agent workflows, the
 
 ## Now
 
-- **Agent orchestration and harness engineering.** I design and deploy agent harnesses (Claude Code, OpenCode, plain chat and image) with sandboxes, tool allowlists, approval gates and per-agent model tuning, and grade every step with LLM judges.
+- **Agent orchestration and harness engineering.** I design, deploy and evaluate teams of AI agents that work safely, learn from past runs and keep improving.
 - **UN OCHA, Geneva.** AI situation analysis and grounded report generation for humanitarian crises, used in the 2026 earthquake responses in the Philippines, Venezuela and Colombia.
 - **Instrumental Partners.** Knowledge graphs, document AI, pricing models and BI for US manufacturing and defense-supply clients.
 
 ## Featured: Agent Fleet
 
 <p align="center">
-  <img src="assets/agent-fleet.svg" width="100%" alt="Agent Fleet architecture: an orchestrator plans a goal, departments of agents run it in sandboxed harnesses, a cross-family judge grades each step, and a Postgres plus pgvector knowledge graph feeds context back in.">
+  <img src="assets/agent-fleet.svg" width="100%" alt="Agent Fleet architecture: an orchestrator plans a goal, departments of agents run it in sandboxed harnesses, every step is reviewed, and a shared knowledge graph feeds context back in.">
 </p>
 
-A software company where every employee is an LLM agent with its own model, harness, skills and knowledge. You give the orchestrator a goal and a pixel-art office shows the team plan it, walk to their desks and work through it. Results land in a folder per goal, per agent. The repo is private for now.
+A software company where every employee is an AI agent with its own role, tools, skills and knowledge. Give it a goal and a pixel-art office shows the team plan it, walk to their desks and get it done. The repo is private for now.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Orchestration**
-
-- Orchestrator plans steps as strict JSON; a planner can only reorder them
-- Failures go retry, then escalate (depth 3), then fallback model, then replan (max 2), then "needs you"
-- Several workflows run at once and build on each other's results
-- Auto-resume after restarts, capped so a crash can't loop
-
-**Harnesses and tuning**
-
-- Four harnesses per agent: chat, Claude CLI, OpenCode, image (ComfyUI)
-- Per-agent effort, max tokens, temperature, top-p and raw params, mapped to what each harness supports
-- Prompt engineering by config: instructions file, skills and MCP tools per agent
-- Skills with progressive disclosure: full text under 12k chars, else one-liners plus the 3 best matches
-
-</td>
-<td width="50%" valign="top">
-
-**Evaluation**
-
-- Every step graded: deterministic metrics, a rubric per task type and a trajectory score
-- Judge comes from another model family than the producer, to avoid self-preference
-- A tuning agent changes one thing per agent per day and keeps it only if the next 5 scores beat the last 5
-- Calibration plan with Cohen's kappa against human grades
-
-**Security and guardrails**
-
-- Agents run as uid 1000 with a minimal env, write only to `/workspace`, no Docker socket
-- API refuses agent processes, foreign origins and DNS rebinding; symlinks resolved with realpath
-- Secrets filled at call time, one key per harness, never written to the workspace
-
-**Retrieval and context budget**
-
-- Knowledge graph on Postgres + pgvector with a typed ontology of nodes and edges
-- Hybrid recall: binary HNSW + exact rescoring fused with full text (RRF), plus graph hops
-- Token control: char budgets, compaction at 40% of the window, near-duplicate pruning, a GPU lane that batches jobs by loaded model
-
-</td>
-</tr>
-</table>
+- **Orchestration:** goals become plans, plans go to the right agents, and the team adapts when something fails
+- **Agent harnesses:** each agent is tuned with its own instructions, skills and tools
+- **Evaluation:** every result is reviewed, and agents improve over time with only proven changes kept
+- **Security:** sandboxed workspaces, scoped access, human approvals and careful handling of secrets
+- **Memory and RAG:** a knowledge graph links past work, so agents start from what worked with lean, cited context that keeps token use low
 
 ## Case studies
 
@@ -99,7 +61,7 @@ A software company where every employee is an LLM agent with its own model, harn
 ## Tech stack
 
 <p align="center">
-  <img src="assets/tech-stack.svg" width="100%" alt="Tech stack. Agents and LLMs: Claude, OpenAI API, Nemotron, Hugging Face, MCP, RAG, Neo4j. Languages: Python, SQL, R, Rust, Node.js. Data and ML: scikit-learn, XGBoost, pandas, MLflow, Plotly, Power BI, Preset, QGIS. Infra: Docker, AWS, Azure, FastAPI, PostgreSQL with pgvector, SQLite, MongoDB.">
+  <img src="assets/tech-stack.svg" width="100%" alt="Tech stack. Agents and LLMs: Claude, OpenAI, NVIDIA, Hugging Face, MCP, RAG, Neo4j. Languages: Python, SQL, R, Rust, Node.js. Data and ML: scikit-learn, XGBoost, pandas, MLflow, Plotly, Power BI, Preset, QGIS. Infra: Docker, AWS, Azure, FastAPI, PostgreSQL with pgvector, SQLite, MongoDB.">
 </p>
 
 ## About

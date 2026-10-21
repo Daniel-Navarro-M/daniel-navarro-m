@@ -84,3 +84,7 @@ I've worked with the World Bank, UN OCHA, the Organization of American States, t
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="Pixel-art agents waving goodbye.">
 </p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Daniel-Navarro-M&label=Profile%20visitors&color=a371f7&style=for-the-badge" alt="Profile visitors">
+</p>

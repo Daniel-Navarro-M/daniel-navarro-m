@@ -59,7 +59,7 @@ I build **AI agents that automate operations**, lower costs and deliver reliable
 - [Corruption risk in Rail Baltica procurement](https://danielnavarro.work/work/rail-baltica-corruption-risk/) · [code](https://github.com/Daniel-Navarro-M/rail_baltika_corruption_replication)
 - [Blackpolis: mapping structural racism in Cali](https://danielnavarro.work/work/blackpolis-cali/) · [code](https://github.com/Daniel-Navarro-M/blackpolis_replication)
 - [K-means clustering of Cali's metropolitan vote](https://danielnavarro.work/work/cali-electoral-clustering/)
-- [Pesticides and Parkinson's disease: geospatial ML](https://danielnavarro.work/work/parkinsons-geospatial-ml/)
+- [Pesticides and Parkinson's disease: geospatial ML](https://danielnavarro.work/work/parkinsons-geospatial-ml/) · [code](https://github.com/Daniel-Navarro-M/living-near-crops-pd-colombia)
 
 </details>
 

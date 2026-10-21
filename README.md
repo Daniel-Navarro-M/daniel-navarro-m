@@ -8,27 +8,32 @@
   <a href="https://www.linkedin.com/in/daniel-navarro-madrinan/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
-I build **agentic systems that can show their work**: multi-agent workflows, the harnesses they run in, the retrieval that grounds them and the evals that prove they got better. Before agents, it was RAG, knowledge graphs, data pipelines and BI, and quantitative policy methods to test whether things actually work. That habit stayed.
+I help organisations put **AI agents to work**: agentic workflows that automate real operations, cut costs and deliver results you can trust. My background in data science, RAG and quantitative policy evaluation means I build systems that show their work and prove they help.
 
 ## Now
 
-- **Agent orchestration and harness engineering.** I design, deploy and evaluate teams of AI agents that work safely, learn from past runs and keep improving.
+- **Agentic AI and AI engineering.** Designing and deploying multi-agent workflows that take a business goal and return finished, checked work.
 - **UN OCHA, Geneva.** AI situation analysis and grounded report generation for humanitarian crises, used in the 2026 earthquake responses in the Philippines, Venezuela and Colombia.
 - **Instrumental Partners.** Knowledge graphs, document AI, pricing models and BI for US manufacturing and defense-supply clients.
 
-## Featured: Agent Fleet
+## What I build: AI agent teams for your operations
 
 <p align="center">
-  <img src="assets/agent-fleet.svg" width="100%" alt="Agent Fleet architecture: an orchestrator plans a goal, departments of agents run it in sandboxed harnesses, every step is reviewed, and a shared knowledge graph feeds context back in.">
+  <img src="assets/agent-fleet.svg" width="100%" alt="An agentic workflow: a business goal goes to an orchestrator, specialist agents do the work inside a safe workspace, every output is quality-checked, and a company memory makes each job better than the last.">
 </p>
 
-A software company where every employee is an AI agent with its own role, tools, skills and knowledge. Give it a goal and a pixel-art office shows the team plan it, walk to their desks and get it done. The repo is private for now.
+I design and build agentic workflows: teams of AI agents that take a goal, split it into tasks and hand back finished work. **Agent Fleet**, my own multi-agent system, is where I put this into practice. You give it a goal and a team of specialist agents researches, builds, analyses and writes, while a pixel-art office shows them at work.
 
-- **Orchestration:** goals become plans, plans go to the right agents, and the team adapts when something fails
-- **Agent harnesses:** each agent is tuned with its own instructions, skills and tools
-- **Evaluation:** every result is reviewed, and agents improve over time with only proven changes kept
-- **Security:** sandboxed workspaces, scoped access, human approvals and careful handling of secrets
-- **Memory and RAG:** a knowledge graph links past work, so agents start from what worked with lean, cited context that keeps token use low
+**What this brings to a business**
+
+- **Automate repetitive work.** Reports, research, data preparation, document review and routine operations run with little manual effort.
+- **Lower operating costs.** Each task goes to a right-sized model, and context stays lean, so you only pay for what the job needs.
+- **Consistent, high-quality output.** Every result is checked before it reaches you, and the system learns from each job it finishes.
+- **Safe by design.** Agents work in contained workspaces with access limited to the task, and people approve the steps that matter.
+- **Knowledge that compounds.** Finished work feeds a shared company memory, so answers stay grounded in your own sources.
+- **Fits your stack.** Agents connect to the tools, data and documents your team already uses.
+
+**Where it fits:** reporting and BI, procurement, finance and back office, document-heavy workflows, research and analysis, and operations teams that want to scale without growing headcount at the same pace.
 
 ## Case studies
 

@@ -8,32 +8,32 @@
   <a href="https://www.linkedin.com/in/daniel-navarro-madrinan/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
-I help organisations put **AI agents to work**: agentic workflows that automate real operations, cut costs and deliver results you can trust. My background in data science, RAG and quantitative policy evaluation means I build systems that show their work and prove they help.
+I build **AI agents that automate operations**, lower costs and deliver reliable results. My background in data science, RAG and policy evaluation keeps every system measurable and grounded in evidence.
 
 ## Now
 
-- **Agentic AI and AI engineering.** Designing and deploying multi-agent workflows that take a business goal and return finished, checked work.
+- **Agentic AI.** Designing and deploying multi-agent workflows for business operations.
 - **UN OCHA, Geneva.** AI situation analysis and grounded report generation for humanitarian crises, used in the 2026 earthquake responses in the Philippines, Venezuela and Colombia.
 - **Instrumental Partners.** Knowledge graphs, document AI, pricing models and BI for US manufacturing and defense-supply clients.
 
-## What I build: AI agent teams for your operations
+## Agentic workflows for business
 
 <p align="center">
-  <img src="assets/agent-fleet.svg" width="100%" alt="An agentic workflow: a business goal goes to an orchestrator, specialist agents do the work inside a safe workspace, every output is quality-checked, and a company memory makes each job better than the last.">
+  <img src="assets/agent-fleet.svg" width="100%" alt="Agent Fleet: an orchestrator plans each goal, specialist agents execute it in a secure workspace, an LLM judge and human review check the output, and a shared memory improves every new job.">
 </p>
 
-I design and build agentic workflows: teams of AI agents that take a goal, split it into tasks and hand back finished work. **Agent Fleet**, my own multi-agent system, is where I put this into practice. You give it a goal and a team of specialist agents researches, builds, analyses and writes, while a pixel-art office shows them at work.
+**Agent Fleet** is a virtual office where AI agents communicate, coordinate and execute tasks. An orchestrator turns each goal into a plan and assigns the work to specialists in research, engineering, data, writing and operations. Each agent has the tools it needs to interact with its environment. Continuous evaluation runs through an LLM as a judge and human-in-the-loop review.
 
-**What this brings to a business**
+**Business value**
 
-- **Automate repetitive work.** Reports, research, data preparation, document review and routine operations run with little manual effort.
-- **Lower operating costs.** Each task goes to a right-sized model, and context stays lean, so you only pay for what the job needs.
-- **Consistent, high-quality output.** Every result is checked before it reaches you, and the system learns from each job it finishes.
-- **Safe by design.** Agents work in contained workspaces with access limited to the task, and people approve the steps that matter.
-- **Knowledge that compounds.** Finished work feeds a shared company memory, so answers stay grounded in your own sources.
-- **Fits your stack.** Agents connect to the tools, data and documents your team already uses.
+- **Automation.** Reports, research, data preparation and document review run end to end.
+- **Cost efficiency.** Each task runs on a right-sized model with lean context.
+- **Quality.** Every output is reviewed, and each finished job improves the next one.
+- **Security.** Agents work in sandboxed workspaces, with human approval on key steps.
+- **Company memory.** A shared knowledge base grounds every answer in the organisation's own sources.
+- **Integration.** Agents connect to existing tools, data and documents.
 
-**Where it fits:** reporting and BI, procurement, finance and back office, document-heavy workflows, research and analysis, and operations teams that want to scale without growing headcount at the same pace.
+**Applications:** reporting and BI, procurement, finance and back office, document-heavy processes and research.
 
 ## Case studies
 
